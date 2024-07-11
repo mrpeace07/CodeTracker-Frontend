@@ -36,21 +36,22 @@ const LandingPage = () => {
           </div>
         </div>
         <div className="mt-12">
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
-            Features
-          </h2>
-          <ul className="text-lg text-gray-700">
-            <li className="mb-4">
-              Track your solved, attempted, and favorite LeetCode problems
-            </li>
-            <li className="mb-4">
-              Sync your progress across devices seamlessly
-            </li>
-            <li className="mb-4">
-              Visualize your performance with insightful analytics
-            </li>
-          </ul>
-        </div>
+  <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+    Features
+  </h2>
+  <ul className="text-lg text-gray-700">
+    <li className="mb-4">
+      Track your LeetCode questions easily
+    </li>
+    <li className="mb-4">
+      Organize and revise your tracked questions efficiently
+    </li>
+    <li className="mb-4">
+      Seamlessly review your progress and performance
+    </li>
+  </ul>
+</div>
+
       </div>
     </div>
   );

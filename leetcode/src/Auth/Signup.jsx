@@ -43,35 +43,7 @@ const Signup = () => {
 
   return (
     <>
-      {/* <h1>DSA Hub</h1>
 
-      <button className="border" onClick={signInWithGoogle}>Google signup</button>
-      <br />
-      
-        <input
-            type="text"
-            className="border"
-            placeholder="Enter your name"
-            onChange={(e) => setName(e.target.value)}
-            />  
-        <br />
-        <input
-            type="email"
-            className="border"
-            placeholder="Enter your email"
-            onChange={(e) => setEmail(e.target.value)}
-            />
-        <br />
-        <input
-            type="password"
-            className="border"
-            placeholder="Enter your password"
-            onChange={(e) => setPassword(e.target.value)}
-            />
-        <br />
-        <button className="border" onClick={signIn}>Signup</button>
-        <br />
-        <Link to="/">Login</Link> */}
 
       <div className="mx-auto my-10 max-w-md rounded-xl border px-4 py-10 text-gray-700 shadow-lg sm:px-8">
         <div className="mb-16 flex justify-between">
@@ -87,7 +59,7 @@ const Signup = () => {
         </div>
         <p className="mb-5 text-3xl font-medium">LeetCode Tracker</p>
         <p className="mb-6 text-sm">
-          "DSA Store and Revamp" implies a platform for storing and revising
+          "LeetCode Tracker" implies a platform for storing and revising
           solved DSA questions
         </p>
         <div className="mb-6">

@@ -93,7 +93,7 @@ const Dashboard = ({ user }) => {
               to="#"
               className="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-indigo-600"
             >
-              DSA Store and Revamp
+              LeetCode Tracker
             </Link>
           </div>
         </div>

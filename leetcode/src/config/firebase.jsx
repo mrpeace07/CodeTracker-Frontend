@@ -4,15 +4,15 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAzOFyUtRyHyHIn-4RuwmEsPwQCWBQCCeo",
-    authDomain: "leetcode-tracker-6f022.firebaseapp.com",
-    databaseURL: "https://leetcode-tracker-6f022-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "leetcode-tracker-6f022",
-    storageBucket: "leetcode-tracker-6f022.appspot.com",
-    messagingSenderId: "1018319647499",
-    appId: "1:1018319647499:web:7fecdef6a5cee20192680e",
-    measurementId: "G-EW08MHQ81B"
-  };
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
+};
 
 
 const app = initializeApp(firebaseConfig);
