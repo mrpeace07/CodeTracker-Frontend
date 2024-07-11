@@ -15,8 +15,8 @@ const LandingPage = () => {
           </p>
           <div className="mb-8">
             <img
-              src="/leetcode.svg"  
-              alt="LeetCode Logo"
+              src="leetcode.svg"  
+              alt="LeetCode Logo1"
               className="h-20 sm:h-24 mx-auto"
             />
           </div>
