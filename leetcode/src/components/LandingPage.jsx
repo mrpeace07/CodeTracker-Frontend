@@ -15,7 +15,7 @@ const LandingPage = () => {
           </p>
           <div className="mb-8">
             <img
-              src="/leetcode.svg"  // Replace with your logo image path
+              src="/leetcode.svg"  
               alt="LeetCode Logo"
               className="h-20 sm:h-24 mx-auto"
             />
@@ -49,9 +49,6 @@ const LandingPage = () => {
             <li className="mb-4">
               Visualize your performance with insightful analytics
             </li>
-            {/* <li className="mb-4">
-              Stay motivated with reminders and goal tracking
-            </li> */}
           </ul>
         </div>
       </div>
