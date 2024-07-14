@@ -20,7 +20,7 @@ const LandingPage = () => {
           </div>
           <div className="flex justify-center space-x-4">
             <a
-              href="#"
+              href="https://github.com/Chinmay-Ankolekar/Leetcode-Tracker-Extension"
               className="bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-lg text-lg font-medium transition duration-300"
             >
               Download Extension
