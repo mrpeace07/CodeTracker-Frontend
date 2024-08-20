@@ -8,13 +8,13 @@ const LandingPage = () => {
       <div className="max-w-5xl mx-auto p-6 sm:p-10 bg-white shadow-lg rounded-lg">
         <div className="text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
-            Welcome to LeetCode Tracker
+            Welcome to CodeTracker
           </h1>
           <p className="text-lg text-gray-700 mb-8">
             Keep track of your LeetCode progress effortlessly
           </p>
           <div className="mb-8">
-            <svg
+            {/* <svg
               className="h-20 sm:h-24 mx-auto"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -32,7 +32,8 @@ const LandingPage = () => {
                 fill="#070706"
                 d="M8.115 22.814a2.109 2.109 0 0 1-.474-.361c-1.327-1.333-2.66-2.66-3.984-3.997-1.989-2.008-2.302-4.937-.786-7.32a6 6 0 0 1 .839-1.004L13.333.489c.625-.626 1.498-.652 2.079-.067.56.563.527 1.455-.078 2.066-.769.776-1.539 1.55-2.309 2.325-.041.122-.14.2-.225.287-.863.876-1.75 1.729-2.601 2.618-.111.116-.262.186-.372.305-1.423 1.423-2.863 2.83-4.266 4.272-1.135 1.167-1.097 2.938.068 4.127 1.308 1.336 2.639 2.65 3.961 3.974.067.067.136.132.204.198.468.303.474 1.25.183 1.671-.321.465-.74.75-1.333.728-.199-.006-.363-.086-.529-.179z"
               ></path>
-            </svg>
+            </svg> */}
+            <img  className="h-20 sm:h-24 mx-auto" src="public/extension-logo.png" alt="logo" />
           </div>
           <div className="flex justify-center space-x-4">
             <a

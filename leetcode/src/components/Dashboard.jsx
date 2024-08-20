@@ -62,7 +62,7 @@ const Dashboard = ({ user }) => {
               <div className="flex-shrink-0">
                 <span className="font-bold text-2xl text-white">
                   <span className="inline-block h-3 w-3 bg-white mr-2 rounded-full"></span>
-                  LeetCode-Tracker
+                  CodeTracker
                 </span>
               </div>
               <div className="hidden sm:block sm:ml-6">
@@ -93,7 +93,7 @@ const Dashboard = ({ user }) => {
               to="#"
               className="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-indigo-600"
             >
-              LeetCode Tracker
+              CodeTracker
             </Link>
           </div>
         </div>

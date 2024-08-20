@@ -48,7 +48,7 @@ const Signup = () => {
       <div className="mx-auto my-10 max-w-md rounded-xl border px-4 py-10 text-gray-700 shadow-lg sm:px-8">
         <div className="mb-16 flex justify-between">
           <span className="font-bold">
-            <span className="inline-block h-3 w-3 bg-blue-600"></span>LeetCode Tracker
+            <span className="inline-block h-3 w-3 bg-blue-600"></span>CodeTracker
           </span>
           <span className="">
             Have account?{" "}
@@ -57,9 +57,9 @@ const Signup = () => {
             </Link>
           </span>
         </div>
-        <p className="mb-5 text-3xl font-medium">LeetCode Tracker</p>
+        <p className="mb-5 text-3xl font-medium">CodeTracker</p>
         <p className="mb-6 text-sm">
-          "LeetCode Tracker" implies a platform for storing and revising
+          "CodeTracker" implies a platform for storing and revising
           solved DSA questions
         </p>
         <div className="mb-6">
