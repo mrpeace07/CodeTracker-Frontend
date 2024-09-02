@@ -73,6 +73,14 @@ const Dashboard = ({ user }) => {
                   >
                     All your questions in one page
                   </Link>
+                  <a
+                    href="https://resource-tracker.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-indigo-600"
+                  >
+                    Other Resources
+                  </a>
                 </div>
               </div>
             </div>
@@ -95,6 +103,14 @@ const Dashboard = ({ user }) => {
             >
               CodeTracker
             </Link>
+            <a
+              href="https://resource-tracker.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-indigo-600"
+            >
+              Interview Prep Resources
+            </a>
           </div>
         </div>
       </nav>
